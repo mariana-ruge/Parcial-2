@@ -12,7 +12,7 @@ Cada punto se encuentra en su respectiva carpeta.
 
 - **Punto 1**:  Contiene la gramática (.g4) y programa en Python para una calculadora de números complejos (aquellos que tienen parte real e imaginaria), hace las 4 operaciones básicas (suma, resta, multiplica y divide, y genera precedencia con los paréntesis).
 - **Punto 2**: Se aplica la función MAP para un objeto iterable (como una lista o una tupla)  dependendiendo de una función definida  y devuelve una colección nueva con los resultados. También se implementa la función FILTER , que es para filtrar los elementos de un iterable de acuerdo a una condición.
-- **Punto 3**:  Se define la gramática e implementación del cálculo de la transformada de Fourier, la principal función de esta transformada es descomponer señales en sus componentes de frecuencias (f) en función del tiempo (t). Y corresponde a la siguien fórmula:
+- **Punto 3**:  Se define la gramática e implementación del cálculo de la transformada de Fourier, la principal función de esta transformada es descomponer señales en sus componentes de frecuencias (f) en función del tiempo (t). Y corresponde a la siguiente fórmula:
 [![](https://www.nobbot.com/wp-content/uploads/2021/05/transformada-de-fourier-integral.png)](https://www.nobbot.com/wp-content/uploads/2021/05/transformada-de-fourier-integral.png)
 
 ## Requisitos
@@ -25,9 +25,12 @@ Cada punto se encuentra en su respectiva carpeta.
    ```bash
   sudo apt install python
    ```
-- **ANTLR4 (ANother Tool for Language Recognition) **:  Es un potente generador de analizadores sintácticos para leer, procesar, ejecutar o traducir texto estructurado o archivos binarios. Se utiliza ampliamente para crear lenguajes, herramientas y marcos.
+- **ANTLR4 (ANother Tool for Language Recognition)**:  Es un potente generador de analizadores sintácticos para leer, procesar, ejecutar o traducir texto estructurado o archivos binarios. Se utiliza ampliamente para crear lenguajes, herramientas y marcos.
+
+
 **Para instalarlo:**
 1. Instala el JDK (Java Development Kit):
+
 		sudo apt update
 		sudo apt install openjdk-21-jdk
 
