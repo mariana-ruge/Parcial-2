@@ -36,9 +36,12 @@ Cada punto se encuentra en su respectiva carpeta.
 
 2. Descarga el archivo .jar de esta página: [Descargas ANTLR](https://www.antlr.org/download.html "Descargas ANTLR")
 
-3. Configura la variable de entorno en el archivo fuente de la terminal para ubicar el archivo jar,
+3. Configura la variable de entorno en el archivo fuente de la terminal para ubicar el archivo jar
+
 		alias antlr4='Ruta al archivo .jar'
+        
 por ejemplo:
+
 		alias antlr4='java -jar /usr/local/lib/antlr-4.x-complete.jar'
 
 
