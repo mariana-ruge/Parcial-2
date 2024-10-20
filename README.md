@@ -58,7 +58,9 @@ por ejemplo:
     **Versión de ANTLR4 Python Runtime**: 4.7.2
 
 Para verificar su instalación puedes usar este comando:
+
 		pip show antlr4-python3-runtime
+        
 En caso de no tenerlo instalado, ejecuta:
 
 		pip install  antlr4-python3-runtime
