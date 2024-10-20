@@ -39,13 +39,15 @@ Cada punto se encuentra en su respectiva carpeta.
 3. Configura la variable de entorno en el archivo fuente de la terminal para ubicar el archivo jar
 
 		alias antlr4='Ruta al archivo .jar'
-        
+
 por ejemplo:
 
 		alias antlr4='java -jar /usr/local/lib/antlr-4.x-complete.jar'
 
 
 4. Verifica la instalación:
+
+
 		 antlr4 --version
 
 - **ANTLR Python Runtime**: Es la biblioteca que proporciona las herramientas necesarias para ejecutar analizadores léxicos y sintácticos generados por ANTLR en Python.
