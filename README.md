@@ -87,6 +87,7 @@ Para mas información sobre ANTLR puedes vistar:
    cd 'Punto-"numero del punto"'
    ```
 **En cada punto hay 2 archivos el .g4  y el .py**
+
 4. Para compilar el proyecto y generar los archivos necesarios para el correcto funcionamiento, ejecuta:
  ```bash
    antlr4  -Dlanguage=Python3  -visitor archivo.g4
