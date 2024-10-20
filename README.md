@@ -48,10 +48,13 @@ por ejemplo:
 
 4. Verifica la instalación:
 
+
 		 antlr4 --version
 
+
 - **ANTLR4 Python Runtime**: Es la biblioteca que proporciona las herramientas necesarias para ejecutar analizadores léxicos y sintácticos generados por ANTLR en Python.
-**Versión de ANTLR4 Python Runtime**: 4.7.2
+
+    **Versión de ANTLR4 Python Runtime**: 4.7.2
 Para verificar su instalación puedes usar este comando:
 		pip show antlr4-python3-runtime
 En caso de no tenerlo instalado, ejecuta:
