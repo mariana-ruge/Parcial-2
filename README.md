@@ -38,8 +38,11 @@ Cada punto se encuentra en su respectiva carpeta.
 **Versión de ANTLR4**: 4.13.2
 
 3. Configura la variable de entorno en el archivo fuente de la terminal para ubicar el archivo jar,
+
 		alias antlr4='Ruta al archivo .jar'
+
 por ejemplo:
+
 		alias antlr4='java -jar /usr/local/lib/antlr-4.x-complete.jar'
 
 
