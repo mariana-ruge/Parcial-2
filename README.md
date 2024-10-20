@@ -51,8 +51,11 @@ por ejemplo:
 		 antlr4 --version
 
 - **ANTLR Python Runtime**: Es la biblioteca que proporciona las herramientas necesarias para ejecutar analizadores léxicos y sintácticos generados por ANTLR en Python.
+
 Para verificar su instalación puedes usar este comando:
 		pip show antlr4-python3-runtime
+
+        
 En caso de no tenerlo instalado, ejecuta:
 
 		pip install  antlr4-python3-runtime
@@ -78,6 +81,7 @@ Para mas información sobre ANTLR puedes vistar:
    cd 'Punto-"numero del punto"'
    ```
 **En cada punto hay 2 archivos el .g4  y el .py**
+
 4. Para compilar el proyecto y generar los archivos necesarios para el correcto funcionamiento, ejecuta:
  ```bash
    antlr4  -Dlanguage=Python3  -visitor archivo.g4
