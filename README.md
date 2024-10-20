@@ -26,6 +26,7 @@ Cada punto se encuentra en su respectiva carpeta.
   sudo apt install python
    ```
 - **ANTLR4 (ANother Tool for Language Recognition)**:  Es un potente generador de analizadores sintácticos para leer, procesar, ejecutar o traducir texto estructurado o archivos binarios. Se utiliza ampliamente para crear lenguajes, herramientas y marcos.
+
 **Para instalarlo:**
 1. Instala el JDK (Java Development Kit):
 
@@ -60,7 +61,7 @@ por ejemplo:
 Para verificar su instalación puedes usar este comando:
 
 		pip show antlr4-python3-runtime
-        
+
 En caso de no tenerlo instalado, ejecuta:
 
 		pip install  antlr4-python3-runtime
