@@ -25,7 +25,7 @@ Cada punto se encuentra en su respectiva carpeta.
    ```bash
   sudo apt install python
    ```
-- **ANTLR4 (ANother Tool for Language Recognition) **:  Es un potente generador de analizadores sintácticos para leer, procesar, ejecutar o traducir texto estructurado o archivos binarios. Se utiliza ampliamente para crear lenguajes, herramientas y marcos.
+- **ANTLR4 (ANother Tool for Language Recognition)**:  Es un potente generador de analizadores sintácticos para leer, procesar, ejecutar o traducir texto estructurado o archivos binarios. Se utiliza ampliamente para crear lenguajes, herramientas y marcos.
 **Para instalarlo:**
 1. Instala el JDK (Java Development Kit):
 
@@ -35,7 +35,7 @@ Cada punto se encuentra en su respectiva carpeta.
 		sudo apt install openjdk-21-jdk
 
 2. Descarga el archivo .jar de esta página: [Descargas ANTLR](https://www.antlr.org/download.html "Descargas ANTLR")
-**Versión de ANTLR4 **: 4.13.2
+**Versión de ANTLR4**: 4.13.2
 
 3. Configura la variable de entorno en el archivo fuente de la terminal para ubicar el archivo jar,
 		alias antlr4='Ruta al archivo .jar'
@@ -47,7 +47,7 @@ por ejemplo:
 		 antlr4 --version
 
 - **ANTLR4 Python Runtime**: Es la biblioteca que proporciona las herramientas necesarias para ejecutar analizadores léxicos y sintácticos generados por ANTLR en Python.
-**Versión de ANTLR4 Python Runtime **: 4.7.2
+**Versión de ANTLR4 Python Runtime**: 4.7.2
 Para verificar su instalación puedes usar este comando:
 		pip show antlr4-python3-runtime
 En caso de no tenerlo instalado, ejecuta:
